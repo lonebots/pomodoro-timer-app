@@ -4,5 +4,153 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.container-wrapper {
+  color: #c9ccea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(39, 42, 85);
+  background: radial-gradient(circle, #1e2140 0%, #151932 65%);
+}
+
+.container {
+  display: flex;
+  min-height: 70vh;
+  min-width: 60vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .labels {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.3rem;
+  background-color: #0c0e1b;
+  border-radius: 1.5rem;
+  margin-top: 5em;
+}
+
+.active-label {
+  color: #0c0e1b;
+  background-color: #fe6f6b;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.button-wrapper .button.active {
+  color: #0c0e1b;
+  background-color: #c9ccea;
+  border: 1px solid #0c0e1b;
+}
+
+button {
+  color: #efefef;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 3rem;
+  margin: 0.2rem;
+  background: #0c0e1b;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.button-container {
+  padding: 1em 0em;
+}
+
+.button-swapper {
+  display: flex;
+  padding: 3em 0em;
+  min-width: 15vw;
+  justify-content: space-between;
+}
+
+.button-wrapper button.active {
+  color: #767c9f;
+  background-color: #c9ccea;
+  border: 1px solid #0c0e1b;
+}
+.form-container {
+  text-align: center;
+  min-height: 70vh;
+  min-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrapper {
+  margin: 2em;
+}
+
+.input-wrapper input {
+  height: 30px;
+  width: 30px;
+  padding: 3rem;
+  background-color: #0c0e1b;
+  color: #c9ccea;
+  border: none;
+  border-radius: 50%;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.time-panel{
+  font-size: 2.5rem;
+}
+
+.timer-container {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0em;
+}
+
+.time-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  color: #efefef;
+  background: #151932;
+  font-size: 3.5rem;
+  box-shadow: 1rem 1.5rem 2rem rgba(0, 0, 0, 0.6);
 }
