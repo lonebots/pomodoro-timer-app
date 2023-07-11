@@ -13,10 +13,10 @@ The Pomodoro Technique is a time-management method developed by Francesco Cirill
 </p>
 
 <p align="center">
-<img src="https://github.com/lonebots/pomodoro-timer-app/blob/update-readme/resources/pomodoro.gif" alt="pomodoro-gif" height="499" widht="auto">
+<img src="./resources/pomodoro.gif" alt="pomodoro-gif" height="499" widht="auto">
 <br>
-<img src="https://github.com/lonebots/pomodoro-timer-app/blob/update-readme/resources/pomodoro_timer.png" alt="pomodoro-timer" height="248" widht="auto">
-<img src="https://github.com/lonebots/pomodoro-timer-app/blob/update-readme/resources/pomodoro_setting.png" alt="pomodoro-setting" height="248" widht="auto">
+<img src="./resources/pomodoro_timer.png" alt="pomodoro-timer" height="248" widht="auto">
+<img src="./resources/pomodoro_setting.png" alt="pomodoro-setting" height="248" widht="auto">
 
 </p>
 
